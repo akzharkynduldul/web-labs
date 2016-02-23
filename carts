@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  width: 800px;
+  height: 400px;
+}
+.cart{ 
+border: 1px dashed blue; 
+float:left; 
+width:200px; 
+height:auto; 
+margin:20px 10px 10px 10px; 
+display: inline-block; 
+position: relative; 
+} 
+.price { 
+width:200px; 
+height:30px; 
+float:left; 
+background-color:rgba( 0, 0, 0, 0.7); 
+position:absolute; 
+bottom:0; 
+color:white; 
+font-size: 20px; 
+text-align: center; 
+text-decoration: none; 
+} 
+
+.price:hover{ 
+background-color:rgb(50,0,0); 
+} 
+.close_button{ 
+position:absolute; right:0; top:0; 
+}
+
+</style>
+</head>
+<body>
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+<div class="cart">
+    <img src="http://media.dealerfire.com/websites/1834/content/2015-Toyota-Camry-C_1.jpg?s=122708" width=200px;/>
+  <a href="#" class="price">
+    $ 30 000 000
+  </a>
+  <img src="http://files.softicons.com/download/application-icons/soft-scraps-icons-by-deleket/png/48/Button%20Close-01.png" class="close_button" width=32px/>
+</div>
+</body>
+</html>
