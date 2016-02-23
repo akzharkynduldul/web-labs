@@ -1,0 +1,143 @@
+<html>
+<head>
+<style>
+.card{
+	border: 1px solid blue;
+	border-radius: 15px;
+    background-color: #CCFFFF;
+    height:200px;
+
+}
+.image{
+	padding-top:5px;
+	padding-left: 5px;
+}
+.description{
+	font-size: 40px;
+	color:blue;
+}
+.description a{
+	text-decoration: none;
+}
+a:hover {
+color : #FF0000;
+text-decoration : none;
+}
+
+
+
+.left{
+	padding-top:5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	
+}
+.right{
+	padding-top:5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 200px;
+
+}
+.attribute_block{
+	font-size: 22px;
+}
+.mileage{
+	position:absolute; left:405px;
+}
+.attribute{
+	position:absolute; left:320px;
+}
+.price{
+	border:1px solid pink;
+	border-radius: 5px;
+	position:absolute; left:380px;
+	background-color: pink;
+	width:7%;
+	height:25px;
+}
+.info{
+	border:1px solid gray;
+	border-radius: 5px;
+   	background-color: gray;
+	float:left;
+   	font-size: 22px;
+   	width:99%;
+   	height:37px;
+
+}
+.info a{
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+<div class="image"><img src="http://media.caranddriver.com/images/media/51/dissected-lotus-based-infiniti-emerg-e-sports-car-concept-top-image-photo-451994-s-original.jpg" style="width:300px; height:150px" align="left" /></div>
+<div class="description">
+    <a href="toyota.html" class="link">Toyota Prius 2007</a>
+    </div>
+<div class="attribute_block">
+<span class="attribute"><strong>Price:</strong></span> <span class="price">30 000$</span></div>
+<br></br><div class="attribute_block">
+<span class="attribute"><strong>Mileage: </strong></span> <span class="mileage">30 000 km</span>
+</div>
+
+<div class="info">
+	  <span class="left">Phone: </span>
+      <a href="tel:770000322515">+770000324515</a>
+      <span class="right">Email:</span>
+      <a href="e-mail:enzo.ferrari@gmail.com">enzo.ferrari@gmail.com</a>
+    </div>
+</div>
+</div>
+<br>
+
+<div class="card">
+<div class="image"><img src="http://media.caranddriver.com/images/media/51/dissected-lotus-based-infiniti-emerg-e-sports-car-concept-top-image-photo-451994-s-original.jpg"; style="width:300px; height:150px" align="left" /></div>
+<div class="description">
+    <a href="toyota.html" class="link">Toyota Corolla</a>
+    </div>
+<div class="attribute_block">
+<span class="attribute"><strong>Price:</strong></span> <span class="price">30 000$</span></div>
+<br></br><div class="attribute_block">
+<span class="attribute"><strong>Mileage: </strong></span> <span class="mileage">30 000 km</span>
+</div>
+
+<div class="info">
+	  <span class="left">Phone: </span>
+      <a href="tel:770000322515">+770000324515</a>
+      <span class="right">Email:</span>
+      <a href="e-mail:enzo.ferrari@gmail.com">enzo.ferrari@gmail.com</a>
+    </div>
+</div>
+</div>
+<br>
+
+<div class="card">
+<div class="image"><img src="http://media.caranddriver.com/images/media/51/dissected-lotus-based-infiniti-emerg-e-sports-car-concept-top-image-photo-451994-s-original.jpg"; style="width:300px; height:150px" align="left" /></div>
+<div class="description">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2000px-BMW.svg.png" style="width:40px; height:40px" align="left"  />
+    <a href="toyota.html" class="link">BMW 7-Series 2007</a>
+    </div>
+<div class="attribute_block">
+<span class="attribute"><strong>Price:</strong></span> <span class="price">30 000$</span></div>
+<br></br><div class="attribute_block">
+<span class="attribute"><strong>Mileage: </strong></span> <span class="mileage">30 000 km</span>
+</div>
+
+<div class="info">
+	  <span class="left">Phone: </span>
+      <a href="tel:770000322515">+770000324515</a>
+      <span class="right">Email:</span>
+      <a href="e-mail:enzo.ferrari@gmail.com">enzo.ferrari@gmail.com</a>
+    </div>
+</div>
+</div>
+<br>
+
+</body>
+</html>
